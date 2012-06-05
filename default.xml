@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="jackyh"
-           fetch="git://github.com/jackyh/" />
+<!-- remotes -->
+  <remote name="github-ssh"
+           fetch="ssh://git@github.com" />
+  <remote name="github-git"
+           fetch="git://github.com" />
+  <remote name="github-https"
+           fetch="https://github.com" />
+  <remote name="github-http"
+           fetch="http://github.com" />
 
-  <project path="bionic" name="qt210_ics_bionic" />
+
+  <project path="bionic" name="jackyh/qt210_ics_bionic.git" />
 
 </manifest>
