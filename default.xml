@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="jackyh"
+           fetch="git://github.com/jackyh/" />
+
+  <project path="bionic" name="qt210_ics_bionic" />
+
+</manifest>
