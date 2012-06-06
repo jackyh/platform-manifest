@@ -2,14 +2,9 @@
 <manifest>
 
 <!-- remotes -->
-  <remote name="github-ssh"
-           fetch="ssh://git@github.com" />
-  <remote name="github-git"
-           fetch="git://github.com" />
-  <remote name="github-https"
-           fetch="https://github.com" />
-  <remote name="github-http"
-           fetch="http://github.com" />
+  <remote name="jackyh" fetch=".."/>
+
+  <default revision="master" remote="jackyh" sync-j="4" />
 
   <project path="build" name="jackyh/qt210_ics_build.git">
     <copyfile src="core/root.mk" dest="Makefile" />
