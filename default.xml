@@ -30,8 +30,6 @@
   <project path="device/moto/stingray" name="jackyh/qt210_ics_device_moto_stingray.git" />
   <project path="device/moto/wingray" name="jackyh/qt210_ics_device_moto_wingray.git" />
   <project path="device/sample" name="jackyh/qt210_ics_device_sample.git" />
-  <project path="device/samsung/crespo" name="jackyh/qt210_ics_device_samsung_crespo.git" />
-  <project path="device/samsung/crespo4g" name="jackyh/qt210_ics_device_samsung_crespo4g.git" />
   <project path="device/samsung/smdkv210" name="jackyh/qt210_ics_device_samsung_smdkv210.git" />
   <project path="device/samsung/maguro" name="jackyh/qt210_ics_device_samsung_maguro.git" />
   <project path="device/samsung/toro" name="jackyh/qt210_ics_device_samsung_toro.git" />
@@ -151,7 +149,7 @@
   <project path="external/webrtc" name="jackyh/qt210_ics_external_webrtc.git" />
   <project path="external/wpa_supplicant" name="jackyh/qt210_ics_external_wpa_supplicant.git" />
   <project path="external/wpa_supplicant_6" name="jackyh/qt210_ics_external_wpa_supplicant_6.git" />
-  <project path="external/wpa_supplicant_8" name="jackyh/qt210_ics_external/wpa_supplicant_8.git" />
+  <project path="external/wpa_supplicant_8" name="jackyh/qt210_ics_external_wpa_supplicant_8.git" />
   <project path="external/xmlwriter" name="jackyh/qt210_ics_external_xmlwriter.git" />
   <project path="external/yaffs2" name="jackyh/qt210_ics_external_yaffs2.git" />
   <project path="external/zlib" name="jackyh/qt210_ics_external_zlib.git" />
@@ -165,7 +163,7 @@
   <project path="frameworks/opt/emoji" name="jackyh/qt210_ics_frameworks_opt_emoji.git" />
   <project path="frameworks/opt/inputmethodcommon" name="jackyh/qt210_ics_frameworks_opt_inputmethodcommon.git" />
   <project path="frameworks/opt/mailcommon" name="jackyh/qt210_ics_frameworks_opt_mailcommon.git" />
-  <project path="frameworks/opt/vcard" name="jackyh/qt210_ics_frameworks_opt_vcard.git" />
+  <project path="frameworks/opt/vcard" name="jackyh/qt210_ics_frameworks_opt_vcard.git" /> 
   <project path="frameworks/support" name="jackyh/qt210_ics_frameworks_support.git" />
   <project path="hardware/broadcom/wlan" name="jackyh/qt210_ics_hardware_broadcom_wlan.git" />
   <project path="hardware/invensense" name="jackyh/qt210_ics_hardware_invensense.git" />
@@ -178,7 +176,7 @@
   <project path="hardware/ti/omap3" name="jackyh/qt210_ics_hardware_ti_omap3.git" />
   <project path="hardware/ti/omap4xxx" name="jackyh/qt210_ics_hardware_ti_omap4xxx.git" />
   <project path="libcore" name="jackyh/qt210_ics_libcore.git" />
-  <project path="ndk" name="jackyh/qt210_ics_platform_ndk" />
+  <project path="ndk" name="jackyh/qt210_ics_platform_ndk.git" />
   <project path="packages/apps/BasicSmsReceiver" name="jackyh/qt210_ics_packages_apps_BasicSmsReceiver.git" />
   <project path="packages/apps/Bluetooth" name="jackyh/qt210_ics_packages_apps_Bluetooth.git" />
   <project path="packages/apps/Browser" name="jackyh/qt210_ics_packages_apps_Browser.git" />
