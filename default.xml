@@ -6,10 +6,11 @@
 
   <default revision="master" remote="jackyh" sync-j="4" />
 
-  <project path="build" name="jackyh/qt210_ics_build.git">
+  <project path="build" name="jackyh/qt210_ics_build.git" />
     <copyfile src="core/root.mk" dest="Makefile" />
 
   <project path="bionic" name="jackyh/qt210_ics_bionic.git" />
+  <project path="vendor" name="jackyh/qt210_ics_vendor.git" />
   <project path="abi/cpp" name="jackyh/qt210_ics_abi_cpp.git" />
   <project path="bootable/bootloader/legacy" name="jackyh/qt210_ics_bootable_bootloader_legacy.git" />
   <project path="bootable/diskinstaller" name="jackyh/qt210_ics_bootable_diskinstaller.git" />
@@ -63,7 +64,8 @@
   <project path="external/eyes-free" name="jackyh/qt210_ics_external_eyes-free.git" />
   <project path="external/fdlibm" name="jackyh/qt210_ics_external_fdlibm.git" />
   <project path="external/flac" name="jackyh/qt210_ics_external_flac.git" />
-  <project path="external/freetype" name="jacky/qt210_ics_external_freetype.git" />
+  <!--project path="external/freetype" name="jacky/qt210_ics_external_freetype.git" />-->
+  <project path="external/hostapd-0.6.9_rtl" name="jackyh/qt210_ics_external_hostapd-0.6.9_rtl.git" />
   <project path="external/fsck_msdos" name="jackyh/qt210_ics_external_fsck_msdos.git" />
   <project path="external/genext2fs" name="jackyh/qt210_ics_external_genext2fs.git" />
   <project path="external/giflib" name="jackyh/qt210_ics_external_giflib.git" />
@@ -127,10 +129,10 @@
   <project path="external/sonivox" name="jackyh/qt210_ics_external_sonivox.git" />
   <project path="external/speex" name="jackyh/qt210_ics_external_speex.git" />
   <project path="external/sqlite" name="jackyh/qt210_ics_external_sqlite.git" />
-  <project path="external/srec" name="jackhy/qt210_ics_external_srec.git" />
+  <!--project path="external/srec" name="jackhy/qt210_ics_external_srec.git" />-->
   <project path="external/srtp" name="jackyh/qt210_ics_external_srtp.git" />
   <project path="external/stlport" name="jackyh/qt210_ics_external_stlport.git" />
-  <project path="external/strace" name="jackhy/qt210_ics_external_strace.git" />
+  <!--project path="external/strace" name="jackhy/qt210_ics_external_strace.git" />-->
   <project path="external/svox" name="jackyh/qt210_ics_external_svox.git" />
   <project path="external/tagsoup" name="jackyh/qt210_ics_external_tagsoup.git" />
   <project path="external/tcpdump" name="jackyh/qt210_ics_external_tcpdump.git" />
@@ -161,6 +163,7 @@
   <project path="frameworks/opt/vcard" name="jackyh/qt210_ics_frameworks_opt_vcard.git" /> 
   <project path="frameworks/support" name="jackyh/qt210_ics_frameworks_support.git" />
   <project path="hardware/broadcom/wlan" name="jackyh/qt210_ics_hardware_broadcom_wlan.git" />
+  <project path="hardware/realtek" name="jackyh/qt210_ics_hardware_realtek.git" />
   <project path="hardware/invensense" name="jackyh/qt210_ics_hardware_invensense.git" />
   <project path="hardware/libhardware" name="jackyh/qt210_ics_hardware_libhardware.git" />
   <project path="hardware/libhardware_legacy" name="jackyh/qt210_ics_hardware_libhardware_legacy.git" />
